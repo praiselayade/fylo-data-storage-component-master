@@ -1,0 +1,33 @@
+/* ********************************* */
+/* BELOW 376PX */
+/* ********************************* */
+@media (max-width: 900px) {
+  body {
+    background-image: url("../images/bg-mobile.png");
+    background-size: cover;
+  }
+  .container {
+    width: 37.5rem;
+    padding: 0 2rem;
+    flex-direction: column;
+  }
+  .box-1 {
+    width: 100%;
+  }
+  .box-2 {
+    width: 100%;
+    padding: 25px;
+  }
+  .box-2-text {
+    text-align: center;
+  }
+  .storage-left {
+    padding: 2rem;
+    position: absolute;
+    top: inherit;
+    right: 0;
+    bottom: 0;
+    transform: translate(-90%, 50%);
+    border-radius: 5px;
+  }
+}

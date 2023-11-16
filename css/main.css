@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Raleway", sans-serif;
+}
+body {
+  background: url("../images/bg-desktop.png") no-repeat bottom,
+    linear-gradient(hsl(229, 57%, 11%), hsl(229, 57%, 11%));
+  background-size: 100% 50%;
+}
+p,
+span {
+  color: #dddbff;
+  font-size: 1.4rem;
+}
+span {
+  font-weight: 700;
+}
+.section-main {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  max-width: 100vw;
+  width: 120rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.box-1,
+.box-2 {
+  background-color: #1d2c67;
+}
+.box-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 25px 90px 25px 20px;
+  border-radius: 5px 60px 5px 5px;
+}
+.logo {
+  height: 3.2rem;
+}
+.box-1-icon {
+  display: flex;
+  align-items: end;
+  gap: 1.2rem;
+}
+.icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 4rem;
+  height: 4rem;
+  background-color: #0c122c;
+  padding: 10px;
+  border-radius: 5px;
+}
+.icon {
+  height: 1.6rem;
+}
+.box-2 {
+  width: 35%;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-self: end;
+  gap: 10px;
+  border-radius: 10px;
+  position: relative;
+}
+.storage {
+  max-width: 400px;
+  padding: 2px 35px 2px 2px;
+  background-color: #0c122c;
+  border-radius: 10px;
+}
+.storage-used {
+  max-width: 81.5%;
+  display: flex;
+  padding: 2px 2px 2px 0;
+  border-radius: 10px;
+  background: linear-gradient(90deg, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+  justify-content: end;
+}
+
+.storage-pointer {
+  padding: 5px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.storages {
+  display: flex;
+  justify-content: space-between;
+}
+.storage-left {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #000000;
+  padding: 10px;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(-30%, -70%);
+}
+.storage-num {
+  font-size: 2.4rem;
+  color: #0c122c;
+}
+.storage-gb {
+  font-size: 10px;
+  color: #848794;
+  text-transform: uppercase;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: #3e52a3;
+}
